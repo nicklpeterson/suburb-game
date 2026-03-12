@@ -1,0 +1,29 @@
+/* @import "tailwindcss"; */
+
+.mapboxgl-map {
+  min-height: 100dvh;
+  min-width: 100dvw;
+  z-index: 1;
+  position: absolute;
+  margin: 0;
+}
+
+.mapboxgl-children {
+  position: absolute;
+  z-index: 1;
+}
+
+.mapboxgl-ctrl-bottom-right {
+  visibility: hidden !important;
+}
+
+.mapboxgl-ctrl-bottom-left {
+  visibility: hidden !important;
+}
+
+.container {
+  position: relative;
+  max-width: 300px;
+  font-family: monospace;
+  margin: 65px auto;
+}
