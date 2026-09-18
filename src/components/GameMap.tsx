@@ -122,7 +122,6 @@ export const GameMap: FC = () => {
         )}
 
         <CityInput onEnter={addCity} />
-        <Button onClick={() => console.log("click")}>TEST</Button>
       </Map>
     </>
   );
